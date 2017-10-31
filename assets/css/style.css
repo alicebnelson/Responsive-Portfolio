@@ -1,0 +1,471 @@
+*{
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */ 
+}
+
+body {
+  background-image: url("../images/seigaiha.png");
+  background-repeat:repeat; 
+  
+   
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';    
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+}
+
+
+
+.navbar {
+    background-color: white;
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid grey;
+    z-index: 1000;
+}
+
+.content{
+    width: 960px;
+    margin: auto;
+    
+
+}
+
+
+
+.nameContainer {
+    width: 50%;
+    text-align: center;
+    height: 75px;
+    float: left;
+    
+}
+
+.name {
+    background-color: #4aaaa5;
+    color: white;
+    width: 250px;
+    text-align: center;
+    height: 75px;
+    border-bottom: 2px solid grey;
+
+    
+}
+
+.centerFont {
+    padding-top: 20px;
+}
+
+.navLinks {
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+.navLinks nav ul li {
+  display: inline-block;
+  margin: 20px 0 0 40px;
+  font-size: 24px;
+}
+
+.navLinks nav ul li a{
+  color: #b2afab;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.aboutMeSection{
+    width: 650px;
+    float: left;
+    background-color: white;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #f0f0f0;
+    margin-top: 100px;
+    height: 650px;
+    margin-bottom: 100px;
+}
+
+.portfolioSection{
+    width: 650px;
+    float: left;
+    background-color: white;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #f0f0f0;
+    margin-top: 100px;
+    height: 800px;
+    margin-bottom: 100px;
+}
+
+
+.contactSection {
+    width: 650px;
+    float: left;
+    background-color: white;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #f0f0f0;
+    margin-top: 100px;
+    height: 680px;
+    margin-bottom: 100px;
+}
+.connectSection {
+    float: right;
+    background-color: white;
+    width: 270px;
+    height: 200px;
+    margin-top: 100px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #f0f0f0;
+    text-align: center;
+}
+
+
+
+.aboutMeSection h2{
+    font-size: 30px;
+    color: #4aaaa5;
+    
+}
+
+.aboutMeHeader {
+    margin: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e6e6e6;
+    
+}
+
+.aboutMeMain {
+    margin: 20px;
+}
+
+.image {
+    float: left;
+    padding: 0px 20px 10px 0px;
+}
+
+.pFormatting {
+    line-height: 200%;
+    color: #777777;
+}
+
+
+.connectHeader {
+    margin: 20px;
+    border-bottom: 2px solid #e6e6e6;
+    text-align: left;
+}
+
+.connectHeader h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #4aaaa5;    
+}
+
+.logocontainer{
+    margin: auto;
+    
+}
+
+.logoFormat {
+    display: inline-block;
+    
+}
+
+.logoSize {
+    height: 75px;
+    width: 75px;
+}
+
+
+.footer {
+    background-color: #666666;
+    border-top: 10px solid #4aaaa5;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+}
+
+.footerText {
+    color: white; 
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.portfolioImg {
+    position: relative;
+    
+ 
+    
+}
+
+.portfolioText {
+    background-color: #4aaaa5;
+    color: white;
+    height: 70px;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    width: 275px;
+    
+    
+    
+}
+
+.portfolioText p{
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';  
+    font-size: 25px;
+    margin-top: 20px;
+    
+    
+}
+
+.portfolioContainer1 {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.portfolioSizing {
+    width: 50%;
+    float: left; 
+    
+}
+
+.portfolio1wrapper {
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+
+}
+
+.displayNone {
+    opacity: 0;
+}
+
+.formStyling {
+    width: 100%;
+    color: #b0acb4;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 14px;
+   
+    
+}
+
+
+
+.messageStyling {
+    width: 100%;
+    height: 300px;
+    color: #b0acb4;
+    padding-left: 20px;
+    font-size: 14px;
+    
+}
+
+.textMargin {
+    margin-left: 50px;
+}
+
+.aboutMeMain p {
+    color: #777777;
+}
+
+.submitBtn {
+    height: 42px;
+    width: 114px;
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.btnBorder {
+    border-right: solid 1px;
+    border-left: solid 1px;
+    padding-right: 30px;
+    text-align: center;
+    border-color: #F7F7F7;
+    padding-left: 30px;
+    
+    }
+
+@media screen and (max-width:960px){
+    .content{
+        width: 800px;
+        margin: auto;
+    }
+
+
+    .aboutMeSection{
+    width: 500px;
+    float: left;
+    height: 100%;
+    
+
+    }
+
+    .portfolioSection {
+    width: 500px;
+    float: left;
+    height: 100%;
+    }
+
+    .connectSection {
+    float: right;
+    width: 250px;
+    height: 200px;
+    margin-top: 100px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #f0f0f0;
+    text-align: center;
+}
+
+    .image {
+        width: 100%;
+        Height: 100%;
+    }
+
+
+    .displayNone {
+        display: none;
+    }
+
+
+  }
+
+  @media screen and (max-width:768px){
+    .content{
+        width: 700px;
+        margin: auto;
+    }
+
+    .aboutMeSection{
+        width: 100%;
+        float: left;
+        margin: auto 0; 
+        margin-top: 100px;
+        
+
+    }
+
+     .portfolioSection {
+         width: 100%;
+        float: left;
+        margin: auto 0; 
+        margin-top: 100px;      
+    }
+
+    .connectSection {
+        float: right;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 100px;
+        margin-top: 50px;
+        margin-left: 10px;
+
+       
+    }
+
+    .navLinks nav ul li {
+        display: inline-block;
+        margin: 20px 0 0 10px;
+        font-size: 24px;
+    }
+
+    .formatLeft {
+       text-align: left;
+       padding-left: 20px; 
+    }
+
+    .image {
+        width: 100%;
+        Height: 100%;
+    }
+
+    .displayNone {
+        display: block;
+    }
+
+
+
+  }
+
+
+@media screen and (max-width:640px){
+    .name {
+        width: 100%;
+        border-bottom: 0px;
+    }
+
+    .nameContainer {
+        width: 100%;
+    }
+
+    .navLinks {
+        width: 100%;
+        background-color: white;
+        border-bottom: 2px solid grey;
+        padding-bottom: 20px;
+
+    }
+
+    .content{
+        width: 100%;
+        margin: auto;
+    }
+
+        .content1{
+        width: 90%;
+        margin: auto;
+    }
+    .aboutMeSection{
+        margin-top: 150px;
+        margin-left: 10px;
+        margin-right: 50px;
+        width: 100%;
+    }
+
+    .portfolioSection{
+        margin-top: 150px;
+        margin-left: 10px;
+        margin-right: 50px;
+        width: 100%;
+    }
+
+        .image {
+        width: 100%;
+        Height: 100%;
+    }
+
+    .displayNone {
+        display: none;
+    }
+
+    .connectSection {
+        float: left;
+        width: 100%;
+    
+    }
+
+
+
+}
